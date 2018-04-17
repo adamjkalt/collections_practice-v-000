@@ -50,7 +50,11 @@ def add_s(array)
   array.map do |word|
     if word == array[1]
       "#{word}"
-    else
+    elsif word == array[0]
+      "#{word}s"
+    elsif word == array[2]
+      "#{word}s"
+    elsif word == array[3]
       "#{word}s"
     end
   end
