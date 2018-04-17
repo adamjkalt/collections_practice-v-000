@@ -49,7 +49,7 @@ end
 def add_s(array)
   array.each_with_index do |word|
     if word = array[1]
-      return "#{word}"
+      "#{word}"
     else
       return "#{word}s"
     end
