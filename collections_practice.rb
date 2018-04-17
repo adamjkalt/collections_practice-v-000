@@ -48,6 +48,6 @@ end
 
 def add_s(array)
   array.each do |word|
-    word = word + "s"
+    word = word"s"
 end
 end
