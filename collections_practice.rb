@@ -48,6 +48,6 @@ end
 
 def add_s(array)
   array.each_with_index do |word|
-    word.map { |word| "#{word}s" }
+    word.map { |words| "#{words}s" }
 end
 end
