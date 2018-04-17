@@ -50,7 +50,7 @@ def add_s(array)
   array.each_with_index do |word|
     if word = array[1]
       "#{word}"
-    else
+    elsif
       return "#{word}s"
     end
   end
