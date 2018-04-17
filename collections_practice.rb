@@ -48,7 +48,7 @@ end
 
 def add_s(array)
   array.map do |word|
-    if word = array[1]
+    if word == array[1]
       "#{word}"
     elsif
       "#{word}s"
