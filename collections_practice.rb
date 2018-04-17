@@ -52,5 +52,6 @@ def add_s(array)
       return word
     else
       return "#{word}s"
-  { |word| "#{word}s" }
+    end
+  end
 end
