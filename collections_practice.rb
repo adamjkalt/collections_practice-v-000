@@ -46,5 +46,5 @@ def sum_array(array)
   return i
 end
 
-def add_s
+def add_s(array)
 end
