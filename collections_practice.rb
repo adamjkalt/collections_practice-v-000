@@ -51,7 +51,7 @@ def add_s(array)
     if word = array[1]
       "#{word}"
     else
-      return "#{word}s"
+      "#{word}s"
     end
   end
 end
